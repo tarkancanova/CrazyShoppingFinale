@@ -11,14 +11,5 @@ public class SausageShop1 : Shop
         location = gameObject.transform.position;
     }
 
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

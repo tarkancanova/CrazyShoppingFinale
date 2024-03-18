@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -3206749421740553240}
   m_Layer: 0
   m_Name: Customer
-  m_TagString: Untagged
+  m_TagString: Customer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,3 +141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5626fa8d458c0bd4ab5f8fad389abe67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
+  _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
+  _storeData: {fileID: 11400000, guid: 547b343d3d74ea04dafbf21ee805bc23, type: 2}

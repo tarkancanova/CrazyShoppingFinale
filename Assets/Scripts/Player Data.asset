@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f002fa29cd946547b28a16fe782b113, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: 
-  hamburgerShopOpen: 0
-  pizzaShopOpen: 0
-  Money: 0
+  Money: 55
