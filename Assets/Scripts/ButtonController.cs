@@ -187,5 +187,7 @@ public class ButtonController : MonoBehaviour
             Vehicle vehicle = _vehicle1.GetComponent<Vehicle>();
             vehicle._vehicleData = _vehicle8Data;
         }
-    }
+    }//vehicle slot1
+
+
 }

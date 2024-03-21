@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b1af35539bdd74b86396e9e783e85a, type: 3}
   m_Name: Product Data
   m_EditorClassIdentifier: 
-  productQuantity: 150
+  productQuantity: 9950
   productSpentPerService: 1
   productCapacity: 0
