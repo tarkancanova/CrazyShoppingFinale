@@ -11,6 +11,7 @@ public class Customer : MonoBehaviour
     [SerializeField] private StoreData _storeData;
     private NavMeshAgent _navMeshAgent;
     private int _shopDecider;
+    private float _customerSpeed = 1f;
     [Inject] SausageShop1 _sausageShop1;
     [Inject] SausageShop2 _sausageShop2;
     [Inject] SausageShop3 _sausageShop3;
@@ -19,6 +20,7 @@ public class Customer : MonoBehaviour
     private void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
+        _navMeshAgent.speed = _customerSpeed * _customerData.movementSpeedMultiplier;
     }
 
     private void OnEnable()

@@ -7,6 +7,7 @@ public class UpdatesforScriptableObjects : MonoBehaviour
     [SerializeField] private PlayerData _playerData;
     [SerializeField] private CustomerData _customerData;
     [SerializeField] private StoreData _storeData;
+    [SerializeField] private ProductData _productData;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class UpdatesforScriptableObjects : MonoBehaviour
         _customerData.customersGoingToSausage3 = 0;
         _customerData.customersGoingToSausage2 = 0;
         _customerData.peopleSpeedForSpend = 1f;
-        _customerData.movementSpeed = 1f;
+        _customerData.movementSpeedMultiplier = 1f;
 
         _storeData.sausage4MaxStoreCapacity = 0;
         _storeData.sausage3MaxStoreCapacity = 0;
@@ -33,6 +34,8 @@ public class UpdatesforScriptableObjects : MonoBehaviour
     private void Update()
     {
         UpdateTotalStoreCapacity();
+        if (_productData.productQuantity < 0)
+            _productData.productQuantity = 0;
     }
 
 

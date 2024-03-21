@@ -9,6 +9,7 @@ public class ClickHandler : MonoBehaviour
     [SerializeField] private GameObject _customerCreator;
     [SerializeField] private CustomerData _customerData;
     [SerializeField] private StoreData _storeData;
+    [SerializeField] private ProductData _productData;
 
 
     private void Awake()
@@ -24,10 +25,12 @@ public class ClickHandler : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+
             RaycastHit hit;
             Ray mouseClick = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(mouseClick, out hit) && hit.collider.CompareTag("Customer Creator") && _customerData.customersGoingToStores < _storeData.totalStoreCapacity)
+            if (Physics.Raycast(mouseClick, out hit) && hit.collider.CompareTag("Customer Creator") && _customerData.customersGoingToStores < _storeData.totalStoreCapacity && _productData.productQuantity > 0)
             {
+                _productData.productQuantity -= 1 * _productData.productSpentPerService;
                 _customerData.customersGoingToStores += 1;
                 GameObject customer = CustomersObject.SharedInstance.GetPooledObject();
                 if (customer != null)

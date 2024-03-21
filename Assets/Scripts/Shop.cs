@@ -21,13 +21,16 @@ public class Shop : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(serveTime);
-            _playerData.Money += price;
-            _productData.productQuantity -= 1 * _productData.productSpentPerService;
-            
-
+            while (_productData.productQuantity > 0)
+            {
+                yield return new WaitForSeconds(serveTime);
+                _playerData.Money += price;
+                _productData.productQuantity -= 1 * _productData.productSpentPerService;
+            }
+            yield return new WaitUntil(() => _productData.productQuantity > 0);
         }
     }
+
 
     public void OnTriggerEnter(Collider other)
     {
@@ -40,3 +43,4 @@ public class Shop : MonoBehaviour
 
 
 }
+
