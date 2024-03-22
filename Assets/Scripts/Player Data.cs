@@ -6,5 +6,5 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Player Data")]
 public class PlayerData : ScriptableObject
 {
-    public float Money = 0;
+    public double Money = 0;
 }

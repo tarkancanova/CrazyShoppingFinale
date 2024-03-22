@@ -7,6 +7,7 @@ using UnityEngine;
 public class Shop : MonoBehaviour
 {
     [SerializeField] private PlayerData _playerData;
+    [SerializeField] private CustomerData _customerData;
     [SerializeField] private ProductData _productData;
     public float serveTime;
     public float price;
@@ -23,7 +24,7 @@ public class Shop : MonoBehaviour
         {
             while (_productData.productQuantity > 0)
             {
-                yield return new WaitForSeconds(serveTime);
+                yield return new WaitForSeconds(serveTime * _customerData.peopleSpendDurationMultiplier);
                 _playerData.Money += price;
                 _productData.productQuantity -= 1 * _productData.productSpentPerService;
             }

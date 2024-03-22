@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fbb3e073680da42bb92b48e6367fd2, type: 3}
   m_Name: Customer Data
   m_EditorClassIdentifier: 
-  peopleSpeedForSpend: 1
-  movementSpeed: 1
-  customersGoingToStores: 5
+  peopleSpendDurationMultiplier: 0.008054124
+  movementSpeedMultiplier: 9.849736
+  serveTimeMultiplier: 1
+  customersGoingToStores: 20
   customersGoingToSausageShop: 5
-  customersGoingToSausage2: 0
-  customersGoingToSausage3: 0
-  customersGoingToSausage4: 0
+  customersGoingToSausage2: 5
+  customersGoingToSausage3: 5
+  customersGoingToSausage4: 5

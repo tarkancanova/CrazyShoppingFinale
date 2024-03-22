@@ -15,3 +15,4 @@ MonoBehaviour:
   vehicleCapacity: 40
   vehicleName: vehicle 2
   vehiclePrice: 500
+  vehicleTier: 2

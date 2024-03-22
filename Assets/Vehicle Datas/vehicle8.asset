@@ -15,3 +15,4 @@ MonoBehaviour:
   vehicleCapacity: 10000
   vehicleName: vehicle8
   vehiclePrice: 0
+  vehicleTier: 8

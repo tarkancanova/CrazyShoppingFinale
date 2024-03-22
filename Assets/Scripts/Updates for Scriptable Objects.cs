@@ -19,7 +19,7 @@ public class UpdatesforScriptableObjects : MonoBehaviour
         _customerData.customersGoingToSausage4 = 0;
         _customerData.customersGoingToSausage3 = 0;
         _customerData.customersGoingToSausage2 = 0;
-        _customerData.peopleSpeedForSpend = 1f;
+        _customerData.peopleSpendDurationMultiplier = 1f;
         _customerData.movementSpeedMultiplier = 1f;
 
         _storeData.sausage4MaxStoreCapacity = 0;

@@ -10,4 +10,7 @@ public class VehicleData : ScriptableObject
     public int vehicleCapacity;
     public string vehicleName;
     public int vehiclePrice;
+    public int vehicleTier;
+
+
 }

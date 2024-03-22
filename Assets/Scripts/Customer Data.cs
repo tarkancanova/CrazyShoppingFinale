@@ -5,9 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Customer Data")]
 public class CustomerData : ScriptableObject
 {
-    public float peopleSpeedForSpend = 1f;
+    public float peopleSpendDurationMultiplier = 1f;
 
     public float movementSpeedMultiplier = 1f;
+
+    public float serveTimeMultiplier = 1f;
 
     public int customersGoingToStores;
 

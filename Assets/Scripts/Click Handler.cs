@@ -28,9 +28,8 @@ public class ClickHandler : MonoBehaviour
 
             RaycastHit hit;
             Ray mouseClick = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(mouseClick, out hit) && hit.collider.CompareTag("Customer Creator") && _customerData.customersGoingToStores < _storeData.totalStoreCapacity && _productData.productQuantity > 0)
+            if (Physics.Raycast(mouseClick, out hit) && hit.collider.CompareTag("Customer Creator") && _customerData.customersGoingToStores < _storeData.totalStoreCapacity)
             {
-                _productData.productQuantity -= 1 * _productData.productSpentPerService;
                 _customerData.customersGoingToStores += 1;
                 GameObject customer = CustomersObject.SharedInstance.GetPooledObject();
                 if (customer != null)
