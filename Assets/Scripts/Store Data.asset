@@ -13,14 +13,10 @@ MonoBehaviour:
   m_Name: Store Data
   m_EditorClassIdentifier: 
   sausage2Open: 1
-  sausage3Open: 0
-  sausage4Open: 0
-  sausageMaxStoreCapacity: 5
-  sausage2MaxStoreCapacity: 5
-  sausage3MaxStoreCapacity: 0
-  sausage4MaxStoreCapacity: 0
-  totalStoreCapacity: 10
-  sausageStore1Level: 1
-  sausageStore2Level: 0
-  sausageStore3Level: 0
-  sausageStore4Level: 0
+  sausage3Open: 1
+  sausage4Open: 1
+  sausageMaxStoreCapacity: 215
+  sausage2MaxStoreCapacity: 215
+  sausage3MaxStoreCapacity: 215
+  sausage4MaxStoreCapacity: 215
+  totalStoreCapacity: 860

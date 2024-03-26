@@ -20,11 +20,11 @@ public class Customer : MonoBehaviour
     private void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        _navMeshAgent.speed = _customerSpeed * _customerData.movementSpeedMultiplier;
     }
 
     private void OnEnable()
     {
+        _navMeshAgent.speed = _customerSpeed * _customerData.movementSpeedMultiplier;
 
         if (!_storeData.sausage2Open)
         {

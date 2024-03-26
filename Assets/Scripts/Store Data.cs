@@ -18,11 +18,5 @@ public class StoreData : ScriptableObject
 
     public int totalStoreCapacity;
 
-    //Store levels
-    public int sausageStore1Level = 1;
-    public int sausageStore2Level = 0;
-    public int sausageStore3Level = 0;
-    public int sausageStore4Level = 0;
-
 
 }
