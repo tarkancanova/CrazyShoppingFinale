@@ -64,6 +64,10 @@ public class PrimitiveUIToTest : MonoBehaviour
     [SerializeField] private TMP_Text _storeUpgradesSecondButtonText;
     [SerializeField] private TMP_Text _storeUpgradesThirdButtonText;
     [SerializeField] private TMP_Text _storeUpgradesFourthButtonText;
+    [SerializeField] private GameObject _ChangeProductTab;
+    [SerializeField] private TMP_Text _hamburgerProductTabText;
+    [SerializeField] private TMP_Text _pizzaProductTabText;
+    [SerializeField] private TMP_Text _unknownProductTabText;
 
     void Start()
     {
@@ -81,6 +85,8 @@ public class PrimitiveUIToTest : MonoBehaviour
         Store4BuyUpgrade();
         Store3BuyUpgrade();
         Store2BuyUpgrade();
+        ChangeProduct();
+        ChangeHamburgerProductTabText();
     }
 
     private void Independent()
@@ -539,6 +545,38 @@ public class PrimitiveUIToTest : MonoBehaviour
     }
 
 
+    public void ChangeProduct()
+    {
+        if (_playerData.Money > 100)
+        {
+            _ChangeProductTab.SetActive(true);
+        }
+    }
 
-
+    public void ChangeHamburgerProductTabText()
+    {
+        switch (_productData.mainProduct)
+        {
+            case "Sausage":
+                _unknownProductTabText.text = "locked.";
+                _pizzaProductTabText.text = "locked.";
+                _hamburgerProductTabText.text = "Click here to sell your stores and start a hamburger business.";
+                break;
+            case "Hamburger":
+                _unknownProductTabText.text = "locked.";
+                _hamburgerProductTabText.text = "You already own a hamburger business.";
+                _pizzaProductTabText.text = "Click here to sell your stores and start a pizza business.";
+                break;
+            case "Pizza":
+                _hamburgerProductTabText.text = "locked.";
+                _pizzaProductTabText.text = "You already own a pizza business.";
+                _unknownProductTabText.text = "Click here to sell your stores and start a unknown business.";
+                break;
+            case "Unknown":
+                _hamburgerProductTabText.text = "locked.";
+                _pizzaProductTabText.text = "locked.";
+                _unknownProductTabText.text = "You already own an unknown business.";
+                break;
+        }        
+    }
 }

@@ -15,7 +15,23 @@ public class Shop : MonoBehaviour
     private void Start()
     {
         serveTime = 1f;
-        price = 1f;
+
+        if (_playerData.firstLoad)
+        {
+            _productData.mainProduct = "Sausage";
+        }
+
+        switch (_productData.mainProduct)
+        {
+            case "Sausage":
+                price = 1f; break;
+            case "Hamburger":
+                price = 4f; break;
+            case "Pizza":
+                price = 10f; break;
+            case "Unknown":
+                price = 15f; break;
+        }
     }
 
     public IEnumerator ServeProduct()

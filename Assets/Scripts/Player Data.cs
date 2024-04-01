@@ -7,4 +7,5 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 {
     public double Money = 0;
+    public bool firstLoad = true;
 }

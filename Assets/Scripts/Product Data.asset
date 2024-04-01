@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b1af35539bdd74b86396e9e783e85a, type: 3}
   m_Name: Product Data
   m_EditorClassIdentifier: 
-  productQuantity: 49420.13305928003
-  productSpentPerService: 0.027583666207706612
+  productQuantity: 0
+  mainProduct: Sausage
+  productSpentPerService: 1
   productCapacity: 0

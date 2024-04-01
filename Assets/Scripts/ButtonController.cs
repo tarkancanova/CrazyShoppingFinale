@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
@@ -26,15 +28,71 @@ public class ButtonController : MonoBehaviour
     [SerializeField] ProductData _productData;
     [SerializeField] CustomerData _customerData;
     [SerializeField] StoreData _storeData;
+    [SerializeField] PlayerData _playerData;
 
     [SerializeField] private GameObject _upgradeTab;
     [SerializeField] private GameObject _storeUpgradesTab;
     [SerializeField] private GameObject _customerUpgradesTab;
+    [SerializeField] private GameObject _productTab;
+    [SerializeField] private GameObject _hamburgerProductButton;
+    [SerializeField] private GameObject _pizzaProductButton;
+    [SerializeField] private GameObject _unknownProductButton;
+
 
     [SerializeField] private GameObject _sausageStore2;
     [SerializeField] private GameObject _sausageStore3;
     [SerializeField] private GameObject _sausageStore4;
 
+    public void ChangeProductToHamburger()
+    {
+        if (_productData.mainProduct == "Sausage")
+        {
+            _productData.mainProduct = "Hamburger";
+            _playerData.firstLoad = false;
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
+    }    
+    public void ChangeProductToPizza()
+    {
+        if (_productData.mainProduct == "Hamburger")
+        {
+            _productData.mainProduct = "Pizza";
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
+    }    
+    public void ChangeProductToUnknown()
+    {
+        if (_productData.mainProduct == "Pizza")
+        {
+            _productData.mainProduct = "Unknown";
+            SceneManager.LoadScene("SampleScene");
+        }
+        else 
+            return;
+    }
+
+    public void RestartGame()
+    {
+        _playerData.firstLoad = true;
+        SceneManager.LoadScene("SampleScene");
+    }
+
+
+    public void OpenCloseProductTab()
+    {
+        if (_productTab.activeSelf)
+        {
+            _productTab.SetActive(false);
+        }
+        else if (!_productTab.activeSelf)
+        {
+            _productTab.SetActive(true);
+        }
+    }
     public void OpenCloseVehiclesTab()
     {
         if (_vehicleTab.activeSelf)

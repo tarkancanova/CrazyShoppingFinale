@@ -14,6 +14,9 @@ public class UpdatesforScriptableObjects : MonoBehaviour
     {
         _playerData.Money = 0;
 
+        _productData.productQuantity = 0;
+        _productData.productSpentPerService = 1;
+
         _customerData.customersGoingToStores = 0;
         _customerData.customersGoingToSausageShop = 0;
         _customerData.customersGoingToSausage4 = 0;
@@ -21,6 +24,7 @@ public class UpdatesforScriptableObjects : MonoBehaviour
         _customerData.customersGoingToSausage2 = 0;
         _customerData.peopleSpendDurationMultiplier = 1f;
         _customerData.movementSpeedMultiplier = 1f;
+        _customerData.serveTimeMultiplier = 1f;
 
         _storeData.sausage4MaxStoreCapacity = 0;
         _storeData.sausage3MaxStoreCapacity = 0;
