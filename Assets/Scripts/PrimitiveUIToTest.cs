@@ -23,33 +23,25 @@ public class PrimitiveUIToTest : MonoBehaviour
     [SerializeField] private TMP_Text _vehicleOneVehicle3Text;
     [SerializeField] private TMP_Text _vehicleOneVehicle4Text;
     [SerializeField] private TMP_Text _vehicleOneVehicle5Text;
-    [SerializeField] private TMP_Text _vehicleOneVehicle6Text;
-    [SerializeField] private TMP_Text _vehicleOneVehicle7Text;
-    [SerializeField] private TMP_Text _vehicleOneVehicle8Text;
+
     [SerializeField] private TMP_Text _vehicleTwoVehicle1Text;
     [SerializeField] private TMP_Text _vehicleTwoVehicle2Text;
     [SerializeField] private TMP_Text _vehicleTwoVehicle3Text;
     [SerializeField] private TMP_Text _vehicleTwoVehicle4Text;
     [SerializeField] private TMP_Text _vehicleTwoVehicle5Text;
-    [SerializeField] private TMP_Text _vehicleTwoVehicle6Text;
-    [SerializeField] private TMP_Text _vehicleTwoVehicle7Text;
-    [SerializeField] private TMP_Text _vehicleTwoVehicle8Text;
+
     [SerializeField] private TMP_Text _vehicleThreeVehicle1Text;
     [SerializeField] private TMP_Text _vehicleThreeVehicle2Text;
     [SerializeField] private TMP_Text _vehicleThreeVehicle3Text;
     [SerializeField] private TMP_Text _vehicleThreeVehicle4Text;
     [SerializeField] private TMP_Text _vehicleThreeVehicle5Text;
-    [SerializeField] private TMP_Text _vehicleThreeVehicle6Text;
-    [SerializeField] private TMP_Text _vehicleThreeVehicle7Text;
-    [SerializeField] private TMP_Text _vehicleThreeVehicle8Text;
+
     [SerializeField] private TMP_Text _vehicleFourVehicle1Text;
     [SerializeField] private TMP_Text _vehicleFourVehicle2Text;
     [SerializeField] private TMP_Text _vehicleFourVehicle3Text;
     [SerializeField] private TMP_Text _vehicleFourVehicle4Text;
     [SerializeField] private TMP_Text _vehicleFourVehicle5Text;
-    [SerializeField] private TMP_Text _vehicleFourVehicle6Text;
-    [SerializeField] private TMP_Text _vehicleFourVehicle7Text;
-    [SerializeField] private TMP_Text _vehicleFourVehicle8Text;
+
     [SerializeField] private TMP_Text _vehicleTwoText;
     [SerializeField] private TMP_Text _vehicleThreeText;
     [SerializeField] private TMP_Text _vehicleFourText;
@@ -112,9 +104,6 @@ public class PrimitiveUIToTest : MonoBehaviour
             _vehicleOneVehicle3Text.text = "Press here to buy.";
             _vehicleOneVehicle4Text.text = "Press here to buy.";
             _vehicleOneVehicle5Text.text = "Press here to buy.";
-            _vehicleOneVehicle6Text.text = "Press here to buy.";
-            _vehicleOneVehicle7Text.text = "Press here to buy.";
-            _vehicleOneVehicle8Text.text = "Press here to buy.";
         }
 
         else
@@ -127,9 +116,6 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleOneVehicle3Text.text = "Press here to buy.";
                     _vehicleOneVehicle4Text.text = "Press here to buy.";
                     _vehicleOneVehicle5Text.text = "Press here to buy.";
-                    _vehicleOneVehicle6Text.text = "Press here to buy.";
-                    _vehicleOneVehicle7Text.text = "Press here to buy.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
                     return;
                 case 2:
                     _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
@@ -137,9 +123,6 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleOneVehicle3Text.text = "Press here to buy.";
                     _vehicleOneVehicle4Text.text = "Press here to buy.";
                     _vehicleOneVehicle5Text.text = "Press here to buy.";
-                    _vehicleOneVehicle6Text.text = "Press here to buy.";
-                    _vehicleOneVehicle7Text.text = "Press here to buy.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
                     return;
                 case 3:
                     _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
@@ -147,9 +130,6 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleOneVehicle3Text.text = "Already bought.";
                     _vehicleOneVehicle4Text.text = "Press here to buy.";
                     _vehicleOneVehicle5Text.text = "Press here to buy.";
-                    _vehicleOneVehicle6Text.text = "Press here to buy.";
-                    _vehicleOneVehicle7Text.text = "Press here to buy.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
                     return;
                 case 4:
                     _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
@@ -157,9 +137,6 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleOneVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleOneVehicle4Text.text = "Already bought.";
                     _vehicleOneVehicle5Text.text = "Press here to buy.";
-                    _vehicleOneVehicle6Text.text = "Press here to buy.";
-                    _vehicleOneVehicle7Text.text = "Press here to buy.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
                     return;
                 case 5:
                     _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
@@ -167,39 +144,6 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleOneVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleOneVehicle4Text.text = "You have a higher tier vehicle.";
                     _vehicleOneVehicle5Text.text = "Already bought.";
-                    _vehicleOneVehicle6Text.text = "Press here to buy.";
-                    _vehicleOneVehicle7Text.text = "Press here to buy.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 6:
-                    _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle6Text.text = "Already bought.";
-                    _vehicleOneVehicle7Text.text = "Press here to buy.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 7:
-                    _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle7Text.text = "Already bought.";
-                    _vehicleOneVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 8:
-                    _vehicleOneVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle7Text.text = "You have a higher tier vehicle.";
-                    _vehicleOneVehicle8Text.text = "Already bought.";
                     return;
             }
 
@@ -216,9 +160,7 @@ public class PrimitiveUIToTest : MonoBehaviour
             _vehicleTwoVehicle3Text.text = "Press here to buy.";
             _vehicleTwoVehicle4Text.text = "Press here to buy.";
             _vehicleTwoVehicle5Text.text = "Press here to buy.";
-            _vehicleTwoVehicle6Text.text = "Press here to buy.";
-            _vehicleTwoVehicle7Text.text = "Press here to buy.";
-            _vehicleTwoVehicle8Text.text = "Press here to buy.";
+
         }
 
         else
@@ -231,9 +173,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleTwoVehicle3Text.text = "Press here to buy.";
                     _vehicleTwoVehicle4Text.text = "Press here to buy.";
                     _vehicleTwoVehicle5Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle6Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle7Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 2:
                     _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
@@ -241,9 +181,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleTwoVehicle3Text.text = "Press here to buy.";
                     _vehicleTwoVehicle4Text.text = "Press here to buy.";
                     _vehicleTwoVehicle5Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle6Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle7Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 3:
                     _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
@@ -251,9 +189,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleTwoVehicle3Text.text = "Already bought.";
                     _vehicleTwoVehicle4Text.text = "Press here to buy.";
                     _vehicleTwoVehicle5Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle6Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle7Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 4:
                     _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
@@ -261,9 +197,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleTwoVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleTwoVehicle4Text.text = "Already bought.";
                     _vehicleTwoVehicle5Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle6Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle7Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 5:
                     _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
@@ -271,39 +205,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleTwoVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleTwoVehicle4Text.text = "You have a higher tier vehicle.";
                     _vehicleTwoVehicle5Text.text = "Already bought.";
-                    _vehicleTwoVehicle6Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle7Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 6:
-                    _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle6Text.text = "Already bought.";
-                    _vehicleTwoVehicle7Text.text = "Press here to buy.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 7:
-                    _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle7Text.text = "Already bought.";
-                    _vehicleTwoVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 8:
-                    _vehicleTwoVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle7Text.text = "You have a higher tier vehicle.";
-                    _vehicleTwoVehicle8Text.text = "Already bought.";
+
                     return;
             }
         }
@@ -318,9 +220,7 @@ public class PrimitiveUIToTest : MonoBehaviour
             _vehicleFourVehicle3Text.text = "Press here to buy.";
             _vehicleFourVehicle4Text.text = "Press here to buy.";
             _vehicleFourVehicle5Text.text = "Press here to buy.";
-            _vehicleFourVehicle6Text.text = "Press here to buy.";
-            _vehicleFourVehicle7Text.text = "Press here to buy.";
-            _vehicleFourVehicle8Text.text = "Press here to buy.";
+
         }
 
         else
@@ -333,9 +233,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleFourVehicle3Text.text = "Press here to buy.";
                     _vehicleFourVehicle4Text.text = "Press here to buy.";
                     _vehicleFourVehicle5Text.text = "Press here to buy.";
-                    _vehicleFourVehicle6Text.text = "Press here to buy.";
-                    _vehicleFourVehicle7Text.text = "Press here to buy.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 2:
                     _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
@@ -343,9 +241,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleFourVehicle3Text.text = "Press here to buy.";
                     _vehicleFourVehicle4Text.text = "Press here to buy.";
                     _vehicleFourVehicle5Text.text = "Press here to buy.";
-                    _vehicleFourVehicle6Text.text = "Press here to buy.";
-                    _vehicleFourVehicle7Text.text = "Press here to buy.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 3:
                     _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
@@ -353,9 +249,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleFourVehicle3Text.text = "Already bought.";
                     _vehicleFourVehicle4Text.text = "Press here to buy.";
                     _vehicleFourVehicle5Text.text = "Press here to buy.";
-                    _vehicleFourVehicle6Text.text = "Press here to buy.";
-                    _vehicleFourVehicle7Text.text = "Press here to buy.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 4:
                     _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
@@ -363,9 +257,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleFourVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleFourVehicle4Text.text = "Already bought.";
                     _vehicleFourVehicle5Text.text = "Press here to buy.";
-                    _vehicleFourVehicle6Text.text = "Press here to buy.";
-                    _vehicleFourVehicle7Text.text = "Press here to buy.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 5:
                     _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
@@ -373,39 +265,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleFourVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleFourVehicle4Text.text = "You have a higher tier vehicle.";
                     _vehicleFourVehicle5Text.text = "Already bought.";
-                    _vehicleFourVehicle6Text.text = "Press here to buy.";
-                    _vehicleFourVehicle7Text.text = "Press here to buy.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 6:
-                    _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle6Text.text = "Already bought.";
-                    _vehicleFourVehicle7Text.text = "Press here to buy.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 7:
-                    _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle7Text.text = "Already bought.";
-                    _vehicleFourVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 8:
-                    _vehicleFourVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle7Text.text = "You have a higher tier vehicle.";
-                    _vehicleFourVehicle8Text.text = "Already bought.";
+
                     return;
             }
         }
@@ -420,9 +280,7 @@ public class PrimitiveUIToTest : MonoBehaviour
             _vehicleThreeVehicle3Text.text = "Press here to buy.";
             _vehicleThreeVehicle4Text.text = "Press here to buy.";
             _vehicleThreeVehicle5Text.text = "Press here to buy.";
-            _vehicleThreeVehicle6Text.text = "Press here to buy.";
-            _vehicleThreeVehicle7Text.text = "Press here to buy.";
-            _vehicleThreeVehicle8Text.text = "Press here to buy.";
+
         }
 
         else
@@ -435,9 +293,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleThreeVehicle3Text.text = "Press here to buy.";
                     _vehicleThreeVehicle4Text.text = "Press here to buy.";
                     _vehicleThreeVehicle5Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle6Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle7Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 2:
                     _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
@@ -445,9 +301,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleThreeVehicle3Text.text = "Press here to buy.";
                     _vehicleThreeVehicle4Text.text = "Press here to buy.";
                     _vehicleThreeVehicle5Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle6Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle7Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 3:
                     _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
@@ -455,9 +309,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleThreeVehicle3Text.text = "Already bought.";
                     _vehicleThreeVehicle4Text.text = "Press here to buy.";
                     _vehicleThreeVehicle5Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle6Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle7Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 4:
                     _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
@@ -465,9 +317,7 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleThreeVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleThreeVehicle4Text.text = "Already bought.";
                     _vehicleThreeVehicle5Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle6Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle7Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
+
                     return;
                 case 5:
                     _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
@@ -475,40 +325,9 @@ public class PrimitiveUIToTest : MonoBehaviour
                     _vehicleThreeVehicle3Text.text = "You have a higher tier vehicle.";
                     _vehicleThreeVehicle4Text.text = "You have a higher tier vehicle.";
                     _vehicleThreeVehicle5Text.text = "Already bought.";
-                    _vehicleThreeVehicle6Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle7Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
+
                     return;
-                case 6:
-                    _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle6Text.text = "Already bought.";
-                    _vehicleThreeVehicle7Text.text = "Press here to buy.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 7:
-                    _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle7Text.text = "Already bought.";
-                    _vehicleThreeVehicle8Text.text = "Press here to buy.";
-                    return;
-                case 8:
-                    _vehicleThreeVehicle1Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle2Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle3Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle4Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle5Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle6Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle7Text.text = "You have a higher tier vehicle.";
-                    _vehicleThreeVehicle8Text.text = "Already bought.";
-                    return;
+
             }
         }
     }
