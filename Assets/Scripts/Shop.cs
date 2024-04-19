@@ -18,19 +18,21 @@ public class Shop : MonoBehaviour
 
         if (_playerData.firstLoad)
         {
-            _productData.mainProduct = "Sausage";
+            _productData.mainProduct = "Hamburger";
         }
 
         switch (_productData.mainProduct)
         {
-            case "Sausage":
-                price = 1f; break;
             case "Hamburger":
-                price = 4f; break;
+                price = 1f; break;
             case "Pizza":
+                price = 4f; break;
+            case "Barber":
                 price = 10f; break;
-            case "Unknown":
+            case "Market":
                 price = 15f; break;
+            case "Cafe":
+                price = 20f; break;
         }
     }
 

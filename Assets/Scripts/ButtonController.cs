@@ -43,32 +43,42 @@ public class ButtonController : MonoBehaviour
     [SerializeField] private GameObject _sausageStore3;
     [SerializeField] private GameObject _sausageStore4;
 
-    public void ChangeProductToHamburger()
+    public void ChangeProductToPizza()
     {
-        if (_productData.mainProduct == "Sausage")
+        if (_productData.mainProduct == "Hamburger")
         {
-            _productData.mainProduct = "Hamburger";
+            _productData.mainProduct = "Pizza";
             _playerData.firstLoad = false;
             SceneManager.LoadScene("SampleScene");
         }
         else
             return;
     }    
-    public void ChangeProductToPizza()
+    public void ChangeProductToBarber()
     {
-        if (_productData.mainProduct == "Hamburger")
+        if (_productData.mainProduct == "Pizza")
         {
-            _productData.mainProduct = "Pizza";
+            _productData.mainProduct = "Barber";
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
+    }       
+    public void ChangeProductToCafe()
+    {
+        if (_productData.mainProduct == "Market")
+        {
+            _productData.mainProduct = "Cafe";
             SceneManager.LoadScene("SampleScene");
         }
         else
             return;
     }    
-    public void ChangeProductToUnknown()
+    public void ChangeProductToMarket()
     {
-        if (_productData.mainProduct == "Pizza")
+        if (_productData.mainProduct == "Barber")
         {
-            _productData.mainProduct = "Unknown";
+            _productData.mainProduct = "Market";
             SceneManager.LoadScene("SampleScene");
         }
         else 
