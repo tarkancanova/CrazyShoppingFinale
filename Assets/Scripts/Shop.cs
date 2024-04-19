@@ -16,7 +16,7 @@ public class Shop : MonoBehaviour
     {
         serveTime = 1f;
 
-        if (_playerData.firstLoad)
+        if (_playerData.restartButton)
         {
             _productData.mainProduct = "Hamburger";
         }

@@ -62,7 +62,7 @@ public class ButtonController : MonoBehaviour
         if (_productData.mainProduct == "Hamburger")
         {
             _productData.mainProduct = "Pizza";
-            _playerData.firstLoad = false;
+            _playerData.restartButton = false;
             SceneManager.LoadScene("SampleScene");
         }
         else
@@ -101,7 +101,7 @@ public class ButtonController : MonoBehaviour
 
     public void RestartGame()
     {
-        _playerData.firstLoad = true;
+        _playerData.restartButton = true;
         SceneManager.LoadScene("SampleScene");
     }
 

@@ -1429,6 +1429,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &110873082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2080,6 +2084,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &137804127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,6 +2333,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &145791365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5181420908377636197, guid: 195709b1de85d524ea6a936fd53d7623,
@@ -2434,6 +2446,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &149242292
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,6 +2893,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &171664737 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b49b3bedf4f17d4ba60100d90c78a6f,
@@ -3597,6 +3617,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &220436719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 195709b1de85d524ea6a936fd53d7623,
@@ -4487,6 +4511,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &291106869
 GameObject:
   m_ObjectHideFlags: 0
@@ -4812,6 +4840,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &302646148
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,6 +5631,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &349694139 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d1ce5efc733a71478a772f278ed1dbc,
@@ -5659,6 +5695,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &349694143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349694139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80c75f18b059d74f95597a3a2aa25e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
+  _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
+  _productData: {fileID: 11400000, guid: d745fb0c75721654f904491909a75691, type: 2}
+  serveTime: 0
+  price: 0
 --- !u!1001 &354979030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7268,6 +7321,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &447523630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7852,23 +7909,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1435486016}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &492986173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492986171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ee2bfefad6af3d4b8fbcc16c5a7b571, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _playerData: {fileID: 0}
-  _customerData: {fileID: 0}
-  _productData: {fileID: 0}
-  serveTime: 0
-  price: 0
 --- !u!65 &492986174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7917,6 +7957,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &492986176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492986171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445b9c9c0a1ebdf49b411500bed88c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
+  _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
+  _productData: {fileID: 11400000, guid: d745fb0c75721654f904491909a75691, type: 2}
+  serveTime: 0
+  price: 0
 --- !u!1 &494404661
 GameObject:
   m_ObjectHideFlags: 0
@@ -8217,6 +8274,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &508646196
 GameObject:
   m_ObjectHideFlags: 0
@@ -9392,6 +9453,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &576486574
 GameObject:
   m_ObjectHideFlags: 0
@@ -9953,6 +10018,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &601450399
 GameObject:
   m_ObjectHideFlags: 0
@@ -10297,6 +10366,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &628741159 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9033251058569988189, guid: 7d1ce5efc733a71478a772f278ed1dbc,
@@ -11120,6 +11193,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &680893613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11819,6 +11896,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &711686094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4454232939850941599, guid: 195709b1de85d524ea6a936fd53d7623,
@@ -11896,6 +11977,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &732017295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6fd0e2d9858eb44e9d76dab1a2690a2,
@@ -12734,6 +12819,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &776611477
 GameObject:
   m_ObjectHideFlags: 0
@@ -15870,6 +15959,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &948805056 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3806861826118872914, guid: 7d1ce5efc733a71478a772f278ed1dbc,
@@ -16297,6 +16390,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &964952243
 GameObject:
   m_ObjectHideFlags: 0
@@ -16473,6 +16570,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &971567697
 GameObject:
   m_ObjectHideFlags: 0
@@ -16677,6 +16778,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &978494466 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d1ce5efc733a71478a772f278ed1dbc,
@@ -17082,6 +17187,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1001027882
 GameObject:
   m_ObjectHideFlags: 0
@@ -17322,6 +17431,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &1009180905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18053,6 +18166,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1049231388
 GameObject:
   m_ObjectHideFlags: 0
@@ -18909,6 +19026,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &1084323219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19406,6 +19527,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1112720521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f744f97a96d11f44e927c52be09c99e7,
@@ -19477,6 +19602,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1114916258
 GameObject:
   m_ObjectHideFlags: 0
@@ -20378,6 +20507,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1146890081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 471814449037873782, guid: ab9bd3ec14e901640b92b154d27c6181,
@@ -20796,6 +20929,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 349694141}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d1ce5efc733a71478a772f278ed1dbc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 349694143}
   m_SourcePrefab: {fileID: 100100000, guid: 7d1ce5efc733a71478a772f278ed1dbc, type: 3}
 --- !u!1 &1172684977
 GameObject:
@@ -20900,6 +21037,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1172949146 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6801717343654124391, guid: f6fd0e2d9858eb44e9d76dab1a2690a2,
@@ -22722,6 +22863,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1325607185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3276704349105373546, guid: 195709b1de85d524ea6a936fd53d7623,
@@ -23050,6 +23195,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1351669187
 GameObject:
   m_ObjectHideFlags: 0
@@ -23389,6 +23538,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1354496234
 GameObject:
   m_ObjectHideFlags: 0
@@ -23632,6 +23785,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1370352256
 GameObject:
   m_ObjectHideFlags: 0
@@ -23914,6 +24071,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &1395532223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24591,7 +24752,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d1ce5efc733a71478a772f278ed1dbc,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 492986173}
+      addedObject: {fileID: 492986176}
   m_SourcePrefab: {fileID: 100100000, guid: 7d1ce5efc733a71478a772f278ed1dbc, type: 3}
 --- !u!1001 &1438682635
 PrefabInstance:
@@ -24799,6 +24960,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1445221233 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5931545625735933438, guid: 49c5169abfd038b40a969594a86a4105,
@@ -25218,6 +25383,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1453481799
 GameObject:
   m_ObjectHideFlags: 0
@@ -26279,6 +26448,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1504073525 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6287295288402335192, guid: 49c5169abfd038b40a969594a86a4105,
@@ -26624,6 +26797,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1521080313 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8102948750185055376, guid: ab9bd3ec14e901640b92b154d27c6181,
@@ -26924,6 +27101,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1553531127 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3572762158940127723, guid: f6fd0e2d9858eb44e9d76dab1a2690a2,
@@ -27001,6 +27182,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1554669013
 GameObject:
   m_ObjectHideFlags: 0
@@ -27890,6 +28075,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1635731784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6801717343654124391, guid: f6fd0e2d9858eb44e9d76dab1a2690a2,
@@ -28376,6 +28565,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1677343648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7982227755438901801, guid: f6fd0e2d9858eb44e9d76dab1a2690a2,
@@ -28890,6 +29083,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1708003404
 GameObject:
   m_ObjectHideFlags: 0
@@ -29771,6 +29968,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1760781023
 GameObject:
   m_ObjectHideFlags: 0
@@ -30141,6 +30342,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1784097252
 GameObject:
   m_ObjectHideFlags: 0
@@ -30512,6 +30717,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &1824664071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30709,6 +30918,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1844970895 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f744f97a96d11f44e927c52be09c99e7,
@@ -30780,6 +30993,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1845380353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5726117420699274218, guid: ab9bd3ec14e901640b92b154d27c6181,
@@ -31162,6 +31379,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &1892546127
 GameObject:
   m_ObjectHideFlags: 0
@@ -32248,6 +32469,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &1963159806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33317,6 +33542,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1 &2019933142
 GameObject:
   m_ObjectHideFlags: 0
@@ -34407,6 +34636,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &2066360114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34598,6 +34831,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &2075352973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34941,6 +35178,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &2111553732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35677,6 +35918,10 @@ MonoBehaviour:
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _playerData: {fileID: 11400000, guid: 4d8dff7ae54b3fb409a60468d70e6107, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
+  _sausageShop1: {fileID: 1870240802}
+  _sausageShop2: {fileID: 684743256}
+  _sausageShop3: {fileID: 1696101514}
+  _sausageShop4: {fileID: 2036560537}
 --- !u!1001 &2141846444
 PrefabInstance:
   m_ObjectHideFlags: 0
