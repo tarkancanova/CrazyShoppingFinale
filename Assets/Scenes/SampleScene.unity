@@ -30838,6 +30838,7 @@ MonoBehaviour:
   _vehicle6Data: {fileID: 11400000, guid: 9dc1edf604cfa74449078e10974a2f93, type: 2}
   _vehicle7Data: {fileID: 11400000, guid: f0b717538bc073f4189e10519e8734df, type: 2}
   _vehicle8Data: {fileID: 11400000, guid: 704add9aca60bbf4cabc8a8ef3043a7a, type: 2}
+  _updateForData: {fileID: 294799498}
   _productData: {fileID: 11400000, guid: d745fb0c75721654f904491909a75691, type: 2}
   _customerData: {fileID: 11400000, guid: 0ada8bbaab77ee54588e8443e1e35d54, type: 2}
   _storeData: {fileID: 11400000, guid: 4a47f39116aa5ad45a127ce8614f9208, type: 2}
@@ -30850,8 +30851,20 @@ MonoBehaviour:
   _pizzaProductButton: {fileID: 0}
   _unknownProductButton: {fileID: 0}
   _sausageStore2: {fileID: 46345943}
+  _pizzaStore2: {fileID: 1397949727}
+  _marketStore2: {fileID: 147557717}
+  _marketStore3: {fileID: 1182219383}
+  _marketStore4: {fileID: 1124818249}
+  _cafeStore2: {fileID: 1233841007}
+  _cafeStore3: {fileID: 1172684977}
+  _cafeStore4: {fileID: 1656289354}
+  _barberStore2: {fileID: 859179353}
+  _barberStore3: {fileID: 1354496234}
+  _barberStore4: {fileID: 635715556}
   _sausageStore3: {fileID: 2001690085}
+  _pizzaStore3: {fileID: 1692688308}
   _sausageStore4: {fileID: 918705188}
+  _pizzaStore4: {fileID: 1912103625}
 --- !u!4 &1862217079
 Transform:
   m_ObjectHideFlags: 0

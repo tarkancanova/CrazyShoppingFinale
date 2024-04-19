@@ -12,6 +12,24 @@ public class UpdatesforScriptableObjects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ResetValues();
+    }
+
+    private void Update()
+    {
+        UpdateTotalStoreCapacity();
+        if (_productData.productQuantity < 0)
+            _productData.productQuantity = 0;
+    }
+
+
+    private void UpdateTotalStoreCapacity()
+    {
+        _storeData.totalStoreCapacity = _storeData.sausage2MaxStoreCapacity + _storeData.sausage3MaxStoreCapacity + _storeData.sausage4MaxStoreCapacity + _storeData.sausageMaxStoreCapacity;
+    }
+
+    public void ResetValues()
+    {
         _playerData.Money = 0;
 
         _productData.productQuantity = 0;
@@ -33,18 +51,5 @@ public class UpdatesforScriptableObjects : MonoBehaviour
         _storeData.sausage2Open = false;
         _storeData.sausage3Open = false;
         _storeData.sausage4Open = false;
-    }
-
-    private void Update()
-    {
-        UpdateTotalStoreCapacity();
-        if (_productData.productQuantity < 0)
-            _productData.productQuantity = 0;
-    }
-
-
-    private void UpdateTotalStoreCapacity()
-    {
-        _storeData.totalStoreCapacity = _storeData.sausage2MaxStoreCapacity + _storeData.sausage3MaxStoreCapacity + _storeData.sausage4MaxStoreCapacity + _storeData.sausageMaxStoreCapacity;
     }
 }

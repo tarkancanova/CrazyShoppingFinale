@@ -12,6 +12,10 @@ public class ProductChange : MonoBehaviour
     [SerializeField] private GameObject _market;
     [SerializeField] private GameObject _burger;
 
+    private void Awake()
+    {
+    }
+
     private void Start()
     {
         switch (_productData.mainProduct)

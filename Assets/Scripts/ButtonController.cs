@@ -25,6 +25,8 @@ public class ButtonController : MonoBehaviour
     [SerializeField] private VehicleData _vehicle7Data;
     [SerializeField] private VehicleData _vehicle8Data;
 
+    [SerializeField] private GameObject _updateForData;
+
     [SerializeField] ProductData _productData;
     [SerializeField] CustomerData _customerData;
     [SerializeField] StoreData _storeData;
@@ -40,8 +42,20 @@ public class ButtonController : MonoBehaviour
 
 
     [SerializeField] private GameObject _sausageStore2;
+    [SerializeField] private GameObject _pizzaStore2;
+    [SerializeField] private GameObject _marketStore2;
+    [SerializeField] private GameObject _marketStore3;
+    [SerializeField] private GameObject _marketStore4;
+    [SerializeField] private GameObject _cafeStore2;
+    [SerializeField] private GameObject _cafeStore3;
+    [SerializeField] private GameObject _cafeStore4;
+    [SerializeField] private GameObject _barberStore2;
+    [SerializeField] private GameObject _barberStore3;
+    [SerializeField] private GameObject _barberStore4;
     [SerializeField] private GameObject _sausageStore3;
+    [SerializeField] private GameObject _pizzaStore3;
     [SerializeField] private GameObject _sausageStore4;
+    [SerializeField] private GameObject _pizzaStore4;
 
     public void ChangeProductToPizza()
     {
@@ -696,9 +710,28 @@ public class ButtonController : MonoBehaviour
     {
         if (!_storeData.sausage2Open)
         {
-            _sausageStore2.SetActive(true);
             _storeData.sausage2MaxStoreCapacity += 5;
             _storeData.sausage2Open = true;
+            if (_productData.mainProduct == "Hamburger")
+            {
+                _sausageStore2.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Pizza")
+            {
+                _pizzaStore2.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Cafe")
+            {
+                _cafeStore2.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Market")
+            {
+                _marketStore2.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Barber")
+            {
+                _barberStore2.SetActive(true);
+            }
         }
         else
             _storeData.sausage2MaxStoreCapacity += 10;
@@ -708,9 +741,28 @@ public class ButtonController : MonoBehaviour
     {
         if (!_storeData.sausage3Open)
         {
-            _sausageStore3.SetActive(true);
-            _storeData.sausage3MaxStoreCapacity += 5;
             _storeData.sausage3Open = true;
+            _storeData.sausage3MaxStoreCapacity += 5;
+            if (_productData.mainProduct == "Hamburger")
+            {
+                _sausageStore3.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Pizza")
+            {
+                _pizzaStore3.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Cafe")
+            {
+                _cafeStore3.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Market")
+            {
+                _marketStore3.SetActive(true);
+            }
+            else if (_productData.mainProduct == "Barber")
+            {
+                _barberStore3.SetActive(true);
+            }
         }
         else
             _storeData.sausage3MaxStoreCapacity += 10;
@@ -720,9 +772,28 @@ public class ButtonController : MonoBehaviour
     {
         if (!_storeData.sausage4Open)
         {
-            _sausageStore4.SetActive(true);
-            _storeData.sausage4MaxStoreCapacity += 5;
             _storeData.sausage4Open = true;
+            _storeData.sausage4MaxStoreCapacity += 5;
+            if (_productData.mainProduct == "Hamburger")
+            {
+                _sausageStore4.SetActive(true);
+            }            
+            else if (_productData.mainProduct == "Pizza")
+            {
+                _pizzaStore4.SetActive(true);
+            }            
+            else if (_productData.mainProduct == "Cafe")
+            {
+                _cafeStore4.SetActive(true);
+            }            
+            else if (_productData.mainProduct == "Market")
+            {
+                _marketStore4.SetActive(true);
+            }            
+            else if (_productData.mainProduct == "Barber")
+            {
+                _barberStore4.SetActive(true);
+            }
         }
         else
             _storeData.sausage4MaxStoreCapacity += 10;
