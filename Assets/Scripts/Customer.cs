@@ -29,56 +29,56 @@ public class Customer : MonoBehaviour
 
     private void MoveToRandomShop()
     {
-        int selectedShop = Random.Range(1, 5); // Randomly select a shop (1 to 4)
+        int selectedShop = Random.Range(1, 5); 
 
         switch (selectedShop)
         {
             case 1:
                 if (_storeData.sausageMaxStoreCapacity > _customerData.customersGoingToSausageShop)
                 {
-                    _customerData.customersGoingToSausageShop += 1; // Decrease shop capacity
-                    // Move customer to shop 1
+                    _customerData.customersGoingToSausageShop += 1;
+                   
                     _navMeshAgent.destination = _sausageShop1.transform.position;
                 }
                 else
                 {
-                    MoveToRandomShop(); // Choose another shop
+                    MoveToRandomShop(); 
                 }
                 break;
             case 2:
                 if (_storeData.sausage2MaxStoreCapacity > _customerData.customersGoingToSausage2)
                 {
-                    _customerData.customersGoingToSausage2 += 1; // Decrease shop capacity
-                    // Move customer to shop 1
+                    _customerData.customersGoingToSausage2 += 1; 
+                 
                     _navMeshAgent.destination = _sausageShop2.transform.position;
                 }
                 else
                 {
-                    MoveToRandomShop(); // Choose another shop
+                    MoveToRandomShop(); 
                 }
                 break;
             case 3:
                 if (_storeData.sausage3MaxStoreCapacity > _customerData.customersGoingToSausage3)
                 {
-                    _customerData.customersGoingToSausage3 += 1; // Decrease shop capacity
-                    // Move customer to shop 1
+                    _customerData.customersGoingToSausage3 += 1; 
+                 
                     _navMeshAgent.destination = _sausageShop3.transform.position;
                 }
                 else
                 {
-                    MoveToRandomShop(); // Choose another shop
+                    MoveToRandomShop();
                 }
                 break;
             case 4:
                 if (_storeData.sausage4MaxStoreCapacity > _customerData.customersGoingToSausage4)
                 {
-                    _customerData.customersGoingToSausage4 += 1; // Decrease shop capacity
-                    // Move customer to shop 1
+                    _customerData.customersGoingToSausage4 += 1;
+                    
                     _navMeshAgent.destination = _sausageShop4.transform.position;
                 }
                 else
                 {
-                    MoveToRandomShop(); // Choose another shop
+                    MoveToRandomShop(); 
                 }
                 break;
             default:
