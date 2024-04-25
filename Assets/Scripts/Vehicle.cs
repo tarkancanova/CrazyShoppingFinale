@@ -12,6 +12,7 @@ public class Vehicle : MonoBehaviour
     private float _deliveryInterval = 5f;
     private NavMeshAgent _navMeshAgent;
     public string vehicleName;
+    public GameObject vehicleModel;
 
     private void Awake()
     {
@@ -22,7 +23,7 @@ public class Vehicle : MonoBehaviour
     {
         vehicleCapacity = _vehicleData.vehicleCapacity;
         vehicleName = _vehicleData.vehicleName;
-        VehicleModelAssignment();
+        vehicleModel = _vehicleData.vehicleObject;
     }
 
     private void OnEnable()
@@ -38,39 +39,39 @@ public class Vehicle : MonoBehaviour
         _navMeshAgent.destination = _deliveryPoint.transform.position;
     }
 
-    private void VehicleModelAssignment()
-    {
-        if (_vehicleData.vehicleTier == 1)
-        {
-            this.transform.GetChild(0).gameObject.SetActive(true);
-        }
-        else if (_vehicleData.vehicleTier == 2)
-        {
-            this.transform.GetChild(0).gameObject.SetActive(false);
-            this.transform.GetChild(1).gameObject.SetActive(true);
-        }
-        else if (_vehicleData.vehicleTier == 3)
-        {
-            this.transform.GetChild(0).gameObject.SetActive(false);
-            this.transform.GetChild(1).gameObject.SetActive(false);
-            this.transform.GetChild(2).gameObject.SetActive(true);
-        }
-        else if (_vehicleData.vehicleTier == 4)
-        {
-            this.transform.GetChild(0).gameObject.SetActive(false);
-            this.transform.GetChild(1).gameObject.SetActive(false);
-            this.transform.GetChild(2).gameObject.SetActive(false);
-            this.transform.GetChild(3).gameObject.SetActive(true);
-        }
-        else if (_vehicleData.vehicleTier == 5)
-        {
-            this.transform.GetChild(0).gameObject.SetActive(false);
-            this.transform.GetChild(1).gameObject.SetActive(false);
-            this.transform.GetChild(2).gameObject.SetActive(false);
-            this.transform.GetChild(3).gameObject.SetActive(false);
-            this.transform.GetChild(4).gameObject.SetActive(true);
-        }
-        else
-            return;
-    }
+    //private void VehicleModelAssignment()
+    //{
+    //    if (_vehicleData.vehicleTier == 1)
+    //    {
+    //        this.transform.GetChild(0).gameObject.SetActive(true);
+    //    }
+    //    else if (_vehicleData.vehicleTier == 2)
+    //    {
+    //        this.transform.GetChild(0).gameObject.SetActive(false);
+    //        this.transform.GetChild(1).gameObject.SetActive(true);
+    //    }
+    //    else if (_vehicleData.vehicleTier == 3)
+    //    {
+    //        this.transform.GetChild(0).gameObject.SetActive(false);
+    //        this.transform.GetChild(1).gameObject.SetActive(false);
+    //        this.transform.GetChild(2).gameObject.SetActive(true);
+    //    }
+    //    else if (_vehicleData.vehicleTier == 4)
+    //    {
+    //        this.transform.GetChild(0).gameObject.SetActive(false);
+    //        this.transform.GetChild(1).gameObject.SetActive(false);
+    //        this.transform.GetChild(2).gameObject.SetActive(false);
+    //        this.transform.GetChild(3).gameObject.SetActive(true);
+    //    }
+    //    else if (_vehicleData.vehicleTier == 5)
+    //    {
+    //        this.transform.GetChild(0).gameObject.SetActive(false);
+    //        this.transform.GetChild(1).gameObject.SetActive(false);
+    //        this.transform.GetChild(2).gameObject.SetActive(false);
+    //        this.transform.GetChild(3).gameObject.SetActive(false);
+    //        this.transform.GetChild(4).gameObject.SetActive(true);
+    //    }
+    //    else
+    //        return;
+    //}
 }

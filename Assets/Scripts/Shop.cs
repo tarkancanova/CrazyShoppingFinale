@@ -14,6 +14,7 @@ public class Shop : MonoBehaviour
 
     private void Start()
     {
+        gameObject.tag = "Shop";
         serveTime = 1f;
 
         if (_playerData.restartButton)

@@ -11,6 +11,8 @@ TagManager:
   - Disappear
   - Deliver
   - Vehicle
+  - Shop
+  - Upgrades
   layers:
   - Default
   - TransparentFX

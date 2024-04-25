@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Player Data
   m_EditorClassIdentifier: 
   Money: 0
-  firstLoad: 1
+  restartButton: 0

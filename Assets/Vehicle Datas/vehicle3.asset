@@ -16,3 +16,5 @@ MonoBehaviour:
   vehicleName: vehicle3
   vehiclePrice: 0
   vehicleTier: 3
+  vehicleObject: {fileID: 8893191797460219632, guid: e562c1fddb59124408b9083ca65769ca,
+    type: 3}

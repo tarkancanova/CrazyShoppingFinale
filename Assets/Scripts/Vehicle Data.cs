@@ -11,6 +11,6 @@ public class VehicleData : ScriptableObject
     public string vehicleName;
     public int vehiclePrice;
     public int vehicleTier;
-
+    [SerializeField] public GameObject vehicleObject;
 
 }

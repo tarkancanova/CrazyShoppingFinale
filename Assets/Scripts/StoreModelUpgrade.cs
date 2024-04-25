@@ -27,6 +27,7 @@ public class StoreModelUpgrade : MonoBehaviour
     [SerializeField] private GameObject _store45;
 
 
+
     private void Update()
     {
         ChangeModels();
@@ -34,81 +35,92 @@ public class StoreModelUpgrade : MonoBehaviour
 
     private void ChangeModels()
     {
-        switch (_storeData.sausageMaxStoreCapacity)
+        if (_storeData.sausageMaxStoreCapacity > 50 && _storeData.sausageMaxStoreCapacity < 100)
         {
-            case 205:
                 _store11.SetActive(false);
                 _store12.SetActive(true);
-                return;            
-            case 255:
+        }
+        else if (_storeData.sausageMaxStoreCapacity > 100 && _storeData.sausageMaxStoreCapacity < 200)
+        {
                 _store12.SetActive(false);
                 _store13.SetActive(true);
-                return;
-            case 305:
+        }
+        else if (_storeData.sausageMaxStoreCapacity > 200 && _storeData.sausageMaxStoreCapacity < 500)
+        {
                 _store13.SetActive(false);
                 _store14.SetActive(true);
-                return;            
-            case 355:
+
+        }        
+        else if (_storeData.sausageMaxStoreCapacity > 500)
+        {
                 _store14.SetActive(false);
                 _store15.SetActive(true);
-                return;
-        }        
-        switch (_storeData.sausage2MaxStoreCapacity)
+        }
+        //------------------------------------------------------------------------------------------------
+        if (_storeData.sausage2MaxStoreCapacity > 50 && _storeData.sausage2MaxStoreCapacity < 100)
         {
-            case 205:
-                _store21.SetActive(false);
-                _store22.SetActive(true);
-                return;            
-            case 255:
-                _store22.SetActive(false);
-                _store23.SetActive(true);
-                return;
-            case 305:
-                _store23.SetActive(false);
-                _store24.SetActive(true);
-                return;            
-            case 355:
-                _store24.SetActive(false);
-                _store25.SetActive(true);
-                return;
-        }       
-        switch (_storeData.sausage3MaxStoreCapacity)
+            _store21.SetActive(false);
+            _store22.SetActive(true);
+        }
+        else if (_storeData.sausage2MaxStoreCapacity > 100 && _storeData.sausage2MaxStoreCapacity < 200)
         {
-            case 205:
-                _store31.SetActive(false);
-                _store32.SetActive(true);
-                return;            
-            case 255:
-                _store32.SetActive(false);
-                _store33.SetActive(true);
-                return;
-            case 305:
-                _store33.SetActive(false);
-                _store34.SetActive(true);
-                return;            
-            case 355:
-                _store34.SetActive(false);
-                _store35.SetActive(true);
-                return;
-        }        
-        switch (_storeData.sausage4MaxStoreCapacity)
+            _store22.SetActive(false);
+            _store23.SetActive(true);
+        }
+        else if (_storeData.sausage2MaxStoreCapacity > 200 && _storeData.sausage2MaxStoreCapacity < 500)
         {
-            case 205:
-                _store41.SetActive(false);
-                _store42.SetActive(true);
-                return;            
-            case 255:
-                _store42.SetActive(false);
-                _store43.SetActive(true);
-                return;
-            case 305:
-                _store43.SetActive(false);
-                _store44.SetActive(true);
-                return;            
-            case 355:
-                _store44.SetActive(false);
-                _store45.SetActive(true);
-                return;
+            _store23.SetActive(false);
+            _store24.SetActive(true);
+
+        }
+        else if (_storeData.sausage2MaxStoreCapacity > 500)
+        {
+            _store24.SetActive(false);
+            _store25.SetActive(true);
+        }
+        //-------------------------------------------------------------------------------------------------
+        if (_storeData.sausage3MaxStoreCapacity > 50 && _storeData.sausage3MaxStoreCapacity < 100)
+        {
+            _store31.SetActive(false);
+            _store32.SetActive(true);
+        }
+        else if (_storeData.sausage3MaxStoreCapacity > 100 && _storeData.sausage3MaxStoreCapacity < 200)
+        {
+            _store32.SetActive(false);
+            _store33.SetActive(true);
+        }
+        else if (_storeData.sausage3MaxStoreCapacity > 200 && _storeData.sausage3MaxStoreCapacity < 500)
+        {
+            _store33.SetActive(false);
+            _store34.SetActive(true);
+
+        }
+        else if (_storeData.sausage3MaxStoreCapacity > 500)
+        {
+            _store34.SetActive(false);
+            _store35.SetActive(true);
+        }
+        //------------------------------------------------------------------------------------------------------
+        if (_storeData.sausage4MaxStoreCapacity > 50 && _storeData.sausage4MaxStoreCapacity < 100)
+        {
+            _store41.SetActive(false);
+            _store42.SetActive(true);
+        }
+        else if (_storeData.sausage4MaxStoreCapacity > 100 && _storeData.sausage4MaxStoreCapacity < 200)
+        {
+            _store42.SetActive(false);
+            _store43.SetActive(true);
+        }
+        else if (_storeData.sausage4MaxStoreCapacity > 200 && _storeData.sausage4MaxStoreCapacity < 500)
+        {
+            _store43.SetActive(false);
+            _store44.SetActive(true);
+
+        }
+        else if (_storeData.sausage4MaxStoreCapacity > 500)
+        {
+            _store44.SetActive(false);
+            _store45.SetActive(true);
         }
     }
 }

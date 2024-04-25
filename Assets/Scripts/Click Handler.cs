@@ -10,6 +10,8 @@ public class ClickHandler : MonoBehaviour
     [SerializeField] private CustomerData _customerData;
     [SerializeField] private StoreData _storeData;
     [SerializeField] private ProductData _productData;
+    [SerializeField] private GameObject _storeTab;
+    [SerializeField] private GameObject _upgradesTab;
 
 
     private void Awake()
@@ -28,18 +30,32 @@ public class ClickHandler : MonoBehaviour
 
             RaycastHit hit;
             Ray mouseClick = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(mouseClick, out hit) && hit.collider.CompareTag("Customer Creator") && _customerData.customersGoingToStores < _storeData.totalStoreCapacity)
+            if (Physics.Raycast(mouseClick, out hit))
             {
-                _customerData.customersGoingToStores += 1;
-                GameObject customer = CustomersObject.SharedInstance.GetPooledObject();
-                if (customer != null)
+
+            
+                if (hit.collider.CompareTag("Customer Creator") && _customerData.customersGoingToStores < _storeData.totalStoreCapacity)
                 {
+                    _customerData.customersGoingToStores += 1;
+                    GameObject customer = CustomersObject.SharedInstance.GetPooledObject();
+                    if (customer != null)
+                    {
                     customer.transform.position = new Vector3(_customerCreator.transform.position.x, _customerCreator.transform.position.y, _customerCreator.transform.position.z + 1);
                     customer.SetActive(true);
+                    }
+                }
+                else if (hit.collider.CompareTag("Shop"))
+                {
+                _storeTab.SetActive(true);
+                }
+                if (hit.collider.CompareTag("Upgrades"))
+                {
+                _upgradesTab.SetActive(true);
                 }
             }
             else
                 return;
+            
         }
 
 
