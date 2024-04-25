@@ -17,5 +17,6 @@ public class ProductData : ScriptableObject
     //Upgradables of product itself
     public double productSpentPerService = 1f;
     public int productCapacity;
+    public double productPerSec;
 
 }

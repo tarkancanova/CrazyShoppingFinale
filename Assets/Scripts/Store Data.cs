@@ -18,5 +18,9 @@ public class StoreData : ScriptableObject
 
     public int totalStoreCapacity;
 
+    public bool boughtCafe;
+    public bool boughtMarket;
+    public bool boughtBarber;
+
 
 }

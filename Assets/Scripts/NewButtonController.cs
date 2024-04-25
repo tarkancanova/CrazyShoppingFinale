@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class NewButtonController : MonoBehaviour
 {
+    [SerializeField] private GameObject _customerCreator;
     [SerializeField] private GameObject _storeTab;
     [SerializeField] private GameObject _upgradeTab;
-    [SerializeField] private GameObject _vehicleTab;
+    [SerializeField] private GameObject _productTab;
     [SerializeField] private StoreData _storeData;
-    [SerializeField] private VehicleData _vehicleData;
+    [SerializeField] private PlayerData _playerData;
     [SerializeField] private CustomerData _customerData;
     [SerializeField] private ProductData _productData;
     [SerializeField] private GameObject _sausageStore2;
@@ -26,6 +29,13 @@ public class NewButtonController : MonoBehaviour
     [SerializeField] private GameObject _pizzaStore3;
     [SerializeField] private GameObject _sausageStore4;
     [SerializeField] private GameObject _pizzaStore4;
+    [SerializeField] private TMP_Text _pizzaProductTabText;
+    [SerializeField] private TMP_Text _barberProductTabText;
+    [SerializeField] private TMP_Text _marketProductTabText;
+    [SerializeField] private TMP_Text _cafeProductTabText;
+    [SerializeField] private TMP_Text _hamburgerProductTabText;
+
+
 
     public void CloseStoreTab()
     {
@@ -35,13 +45,64 @@ public class NewButtonController : MonoBehaviour
     {
         _upgradeTab.SetActive(false);
     }
-    public void OpenVehicleTab()
+    public void OpenProductTab()
     {
-        _vehicleTab.SetActive(true);
+        _productTab.SetActive(true);
     }
-    public void CloseVehicleTab()
+    public void CloseProductTab()
     {
-        _vehicleTab.SetActive(false);
+        _productTab.SetActive(false);
+    }
+
+    public void ChangeProductToPizza()
+    {
+        if (_pizzaProductTabText.text == "Click here to sell your stores and open a pizza store.")
+        {
+            _productData.mainProduct = "Pizza";
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
+    }    
+    public void ChangeProductToHamburger()
+    {
+        _productData.mainProduct = "Hamburger";
+        SceneManager.LoadScene("SampleScene");
+
+    }
+    public void ChangeProductToBarber()
+    {
+        if (_barberProductTabText.text == "Click here to sell your stores and open a barber shop.")
+        {
+            _productData.mainProduct = "Barber";
+            _storeData.boughtBarber = true;
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
+    }
+    public void ChangeProductToCafe()
+    {
+        if (_cafeProductTabText.text == "Click here to sell your stores and open a coffee shop.")
+        {
+            _productData.mainProduct = "Cafe";
+            _storeData.boughtCafe = true;
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
+    }
+
+    public void ChangeProductToMarket()
+    {
+        if (_marketProductTabText.text == "Click here to sell your stores and open a market store.")
+        {
+            _productData.mainProduct = "Market";
+            _storeData.boughtMarket = true;
+            SceneManager.LoadScene("SampleScene");
+        }
+        else
+            return;
     }
 
     public void IncreaseStore1Cap()
@@ -149,12 +210,36 @@ public class NewButtonController : MonoBehaviour
 
     public void IncreaseMovementSpeed()
     {
-        _customerData.movementSpeedMultiplier *= 1.1f;
+        if (_customerData.movementSpeedMultiplier * 100 - 100 < 400)
+        {
+            _customerData.movementSpeedMultiplier *= 1.1f;
+        }
+        else
+            return;
     }
 
     public void DecreaseSpendDuration()
     {
         _customerData.peopleSpendDurationMultiplier *= 0.95f;
+    }
+
+    public void IncreaseProductPerSec()
+    {
+        _productData.productPerSec += 5;
+    }
+
+    public void SendCustomers()
+    {
+        if (_customerData.customersGoingToStores < _storeData.totalStoreCapacity)
+        {
+            _customerData.customersGoingToStores += 1;
+            GameObject customer = CustomersObject.SharedInstance.GetPooledObject();
+            if (customer != null)
+            {
+                customer.transform.position = new Vector3(_customerCreator.transform.position.x, _customerCreator.transform.position.y, _customerCreator.transform.position.z + 1);
+                customer.SetActive(true);
+            }
+        }
     }
 
 }

@@ -19,4 +19,7 @@ MonoBehaviour:
   sausage2MaxStoreCapacity: 0
   sausage3MaxStoreCapacity: 0
   sausage4MaxStoreCapacity: 0
-  totalStoreCapacity: 0
+  totalStoreCapacity: 5
+  boughtCafe: 0
+  boughtMarket: 0
+  boughtBarber: 0

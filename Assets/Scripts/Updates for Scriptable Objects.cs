@@ -10,7 +10,7 @@ public class UpdatesforScriptableObjects : MonoBehaviour
     [SerializeField] private ProductData _productData;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         ResetValues();
     }
@@ -34,6 +34,7 @@ public class UpdatesforScriptableObjects : MonoBehaviour
 
         _productData.productQuantity = 0;
         _productData.productSpentPerService = 1;
+        _productData.productPerSec = 0;
 
         _customerData.customersGoingToStores = 0;
         _customerData.customersGoingToSausageShop = 0;

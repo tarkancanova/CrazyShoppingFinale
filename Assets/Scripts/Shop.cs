@@ -17,10 +17,6 @@ public class Shop : MonoBehaviour
         gameObject.tag = "Shop";
         serveTime = 1f;
 
-        if (_playerData.restartButton)
-        {
-            _productData.mainProduct = "Hamburger";
-        }
 
         switch (_productData.mainProduct)
         {

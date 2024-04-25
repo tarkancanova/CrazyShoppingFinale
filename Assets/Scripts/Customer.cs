@@ -24,6 +24,7 @@ public class Customer : MonoBehaviour
 
     private void OnEnable()
     {
+        _navMeshAgent.speed = _customerSpeed * _customerData.movementSpeedMultiplier;
         MoveToRandomShop();
     }
 

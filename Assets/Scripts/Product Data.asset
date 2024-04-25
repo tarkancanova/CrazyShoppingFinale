@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Product Data
   m_EditorClassIdentifier: 
   productQuantity: 0
-  mainProduct: Pizza
+  mainProduct: Hamburger
   productSpentPerService: 1
   productCapacity: 0
+  productPerSec: 0
