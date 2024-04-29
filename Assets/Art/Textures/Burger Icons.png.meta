@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d400237c98051640ab0cc798de1ecf8
+guid: 97cd3fcf30991a84ca6bb9bfed8945dd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rounded Background 1_0
+      name: Burger Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfddfcb61ff35dc4d87cb3c63bf4d5b3
+      internalID: -1293624436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burger Icons_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3bb32b53b80034c89ef2394a1259fd
+      internalID: 1584368230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burger Icons_2
       rect:
         serializedVersion: 2
         x: 0
@@ -144,20 +186,41 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eddf5f7fa1c042042b4d5709dd8088c9
-      internalID: -1959752357
+      spriteID: c05632b8a1daa8c46bcaf20842e5c769
+      internalID: 1783464252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rounded Background 1_1
+      name: Burger Icons_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281aaeb96020c5d40a21f79d98c95f99
+      internalID: 762416213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burger Icons_4
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +228,14 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aac6b11898b4a514197a49c30a172844
-      internalID: -796968826
+      spriteID: 4c6d9d5811e274e48a2d2a6bf7607006
+      internalID: 748415498
       vertices: []
       indices: 
       edges: []
@@ -180,7 +243,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c2dea50f041b24e4dab86594a05c592a
+    spriteID: 45f9a258401650c4a83f345438a261bb
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rounded Background 1_0: -1959752357
-      Rounded Background 1_1: -796968826
+      Burger Icons_0: -1293624436
+      Burger Icons_1: 1584368230
+      Burger Icons_2: 1783464252
+      Burger Icons_3: 762416213
+      Burger Icons_4: 748415498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

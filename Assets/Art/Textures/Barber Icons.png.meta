@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d400237c98051640ab0cc798de1ecf8
+guid: 7a9c1817164a52342a50e50b6b4e0afb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rounded Background 1_0
+      name: Barber Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5082b6264fedb4195eb919d0edbac6
+      internalID: 2107261322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barber Icons_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b172a6a6306bd864a9211700a8e160bf
+      internalID: 1734475188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barber Icons_2
       rect:
         serializedVersion: 2
         x: 0
@@ -144,20 +186,41 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eddf5f7fa1c042042b4d5709dd8088c9
-      internalID: -1959752357
+      spriteID: a6802f4eac0649b4485f1612ec6eb874
+      internalID: -423598766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rounded Background 1_1
+      name: Barber Icons_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a893ae063d382fb45916ab3db87d3545
+      internalID: 1192098915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barber Icons_4
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +228,14 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aac6b11898b4a514197a49c30a172844
-      internalID: -796968826
+      spriteID: 1a322d55a64bb194290d4e5c5dd0ccc5
+      internalID: 1843968032
       vertices: []
       indices: 
       edges: []
@@ -180,7 +243,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c2dea50f041b24e4dab86594a05c592a
+    spriteID: 71955af22e960fd439d2c3c7e30d8204
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rounded Background 1_0: -1959752357
-      Rounded Background 1_1: -796968826
+      Barber Icons_0: 2107261322
+      Barber Icons_1: 1734475188
+      Barber Icons_2: -423598766
+      Barber Icons_3: 1192098915
+      Barber Icons_4: 1843968032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d400237c98051640ab0cc798de1ecf8
+guid: 347690835d153cd47a087fdfb99516af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rounded Background 1_0
+      name: Pizza Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08538f40118a0c43b9383a90c138374
+      internalID: 557814302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pizza Icons_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f08135aac368446bc5a6a81299d5c8
+      internalID: -356424416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pizza Icons_2
       rect:
         serializedVersion: 2
         x: 0
@@ -144,20 +186,41 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eddf5f7fa1c042042b4d5709dd8088c9
-      internalID: -1959752357
+      spriteID: f9c13e8fec711534f9134376c8398863
+      internalID: -898112798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rounded Background 1_1
+      name: Pizza Icons_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28370c1bb3d05b044b97cd5c39f241d5
+      internalID: 1579027030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pizza Icons_4
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +228,14 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aac6b11898b4a514197a49c30a172844
-      internalID: -796968826
+      spriteID: 65df948c3c77465428896b759b5699f1
+      internalID: -1370771322
       vertices: []
       indices: 
       edges: []
@@ -180,7 +243,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c2dea50f041b24e4dab86594a05c592a
+    spriteID: 5ad4316178941d44ba210714ae3864a1
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rounded Background 1_0: -1959752357
-      Rounded Background 1_1: -796968826
+      Pizza Icons_0: 557814302
+      Pizza Icons_1: -356424416
+      Pizza Icons_2: -898112798
+      Pizza Icons_3: 1579027030
+      Pizza Icons_4: -1370771322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

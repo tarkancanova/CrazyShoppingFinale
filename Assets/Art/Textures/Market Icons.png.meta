@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d400237c98051640ab0cc798de1ecf8
+guid: 691fa8e42476b2c489824c18fd7fb85d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rounded Background 1_0
+      name: Market Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e66218226d5f1a4b80fe1651d2894fa
+      internalID: -1574025863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Market Icons_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d8651381c04c4aa3cfcb8de50af33
+      internalID: 1411107248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Market Icons_2
       rect:
         serializedVersion: 2
         x: 0
@@ -144,20 +186,41 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eddf5f7fa1c042042b4d5709dd8088c9
-      internalID: -1959752357
+      spriteID: 7a0f5cdf5b42ad145beb5aaf19740fa0
+      internalID: -611506058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rounded Background 1_1
+      name: Market Icons_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41fa0ac712f898409798047f12c5bc5
+      internalID: -1430471209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Market Icons_4
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +228,14 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aac6b11898b4a514197a49c30a172844
-      internalID: -796968826
+      spriteID: b8f9deb83d571914a84fe03e829d2419
+      internalID: -2081828154
       vertices: []
       indices: 
       edges: []
@@ -180,7 +243,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c2dea50f041b24e4dab86594a05c592a
+    spriteID: 7cd78f9f93c88ee4b88cf490821a36bd
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rounded Background 1_0: -1959752357
-      Rounded Background 1_1: -796968826
+      Market Icons_0: -1574025863
+      Market Icons_1: 1411107248
+      Market Icons_2: -611506058
+      Market Icons_3: -1430471209
+      Market Icons_4: -2081828154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

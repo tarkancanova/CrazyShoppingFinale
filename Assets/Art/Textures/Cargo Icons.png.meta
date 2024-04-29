@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d400237c98051640ab0cc798de1ecf8
+guid: fafa94081cb92e045bc2638f3f533454
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rounded Background 1_0
+      name: Cargo Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547d428569d1c4e4a91a7d8c3e882139
+      internalID: -1508916578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo Icons_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a0944dd7d58c64ab00310ccdb67cad
+      internalID: -848881711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo Icons_2
       rect:
         serializedVersion: 2
         x: 0
@@ -144,20 +186,41 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eddf5f7fa1c042042b4d5709dd8088c9
-      internalID: -1959752357
+      spriteID: bac53dd5007d17c44905aa68071463eb
+      internalID: -1545083909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rounded Background 1_1
+      name: Cargo Icons_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75226ff50a1ebd94a907536e4147efe2
+      internalID: 1761055557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo Icons_4
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +228,14 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aac6b11898b4a514197a49c30a172844
-      internalID: -796968826
+      spriteID: e766e8ed3626e0147a1e47744c65d521
+      internalID: -597628950
       vertices: []
       indices: 
       edges: []
@@ -180,7 +243,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c2dea50f041b24e4dab86594a05c592a
+    spriteID: 1d491cb9f1a606b4abfde510ca797446
     internalID: 0
     vertices: []
     indices: 
@@ -188,8 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rounded Background 1_0: -1959752357
-      Rounded Background 1_1: -796968826
+      Cargo Icons_0: -1508916578
+      Cargo Icons_1: -848881711
+      Cargo Icons_2: -1545083909
+      Cargo Icons_3: 1761055557
+      Cargo Icons_4: -597628950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
